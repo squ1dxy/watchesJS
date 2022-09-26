@@ -1,29 +1,21 @@
 *{
-    padding: 0;
     margin: 0;
     box-sizing: border-box;
-    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
 body{
     background-color: antiquewhite;
 }
 
 .box{
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:200px;
     user-select: none;
-    color: white;
     filter: drop-shadow(10px 6px 4px grey);
-}
-
-h2{
-    color: antiquewhite;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    filter: drop-shadow(4px 2px 8px black);
 }
